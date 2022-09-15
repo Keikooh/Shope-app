@@ -1,0 +1,9 @@
+C:\Users\fergz\source\repos\PresentacionTienda\PresentacionTienda\bin\Debug\PresentacionTienda.exe
+C:\Users\fergz\source\repos\PresentacionTienda\PresentacionTienda\bin\Debug\PresentacionTienda.pdb
+C:\Users\fergz\source\repos\PresentacionTienda\PresentacionTienda\obj\Debug\PresentacionTienda.csproj.AssemblyReference.cache
+C:\Users\fergz\source\repos\PresentacionTienda\PresentacionTienda\obj\Debug\PresentacionTienda.csproj.SuggestedBindingRedirects.cache
+C:\Users\fergz\source\repos\PresentacionTienda\PresentacionTienda\obj\Debug\PresentacionTienda.FrmTienda.resources
+C:\Users\fergz\source\repos\PresentacionTienda\PresentacionTienda\obj\Debug\PresentacionTienda.csproj.GenerateResource.cache
+C:\Users\fergz\source\repos\PresentacionTienda\PresentacionTienda\obj\Debug\PresentacionTienda.csproj.CoreCompileInputs.cache
+C:\Users\fergz\source\repos\PresentacionTienda\PresentacionTienda\obj\Debug\PresentacionTienda.exe
+C:\Users\fergz\source\repos\PresentacionTienda\PresentacionTienda\obj\Debug\PresentacionTienda.pdb
