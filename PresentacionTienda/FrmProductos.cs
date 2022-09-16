@@ -53,7 +53,11 @@ namespace PresentacionTienda
                     break;
                 case 5:
                     {
-                        //mp.Borrar(producto);
+                        DialogResult dr = MessageBox.Show(string.Format("Desea eliminar {0}?", producto.nombre),"ATENCION", MessageBoxButtons.YesNo);
+
+                        if (dr == DialogResult.Yes)
+                            mp.Eliminar(producto);
+                        
                         Actualizar();
                     }
                     break;

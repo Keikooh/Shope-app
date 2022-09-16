@@ -20,6 +20,11 @@ namespace ManejadorTienda
             ap.Guardar(producto);
         }
 
+        public void Eliminar(Producto producto) 
+        {
+            ap.Eliminar(producto);
+        }
+
         public void Mostrar(DataGridView tabla, string dato)
         {
             tabla.Columns.Clear();

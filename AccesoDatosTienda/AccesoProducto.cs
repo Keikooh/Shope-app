@@ -23,10 +23,17 @@ namespace AccesoDatosTienda
                 producto.precio));
         }
 
+        public void Eliminar(Producto producto) 
+        {
+            b.Comando(String.Format("DELETE FROM producto WHERE idProducto = {0}", producto.idProducto));
+        }
+
         public DataSet Mostrar(string dato)
         {
             return b.Obtener(string.Format("SELECT * FROM producto WHERE nombre LIKE '%{0}%';", dato), "producto");
         }
+
+
 
     }
 }
