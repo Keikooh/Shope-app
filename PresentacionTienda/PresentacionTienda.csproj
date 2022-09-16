@@ -46,19 +46,47 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
-    <Compile Include="FrmTienda.cs">
+    <Compile Include="FrmProductoAdd.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmTienda.Designer.cs">
-      <DependentUpon>FrmTienda.cs</DependentUpon>
+    <Compile Include="FrmProductoAdd.Designer.cs">
+      <DependentUpon>FrmProductoAdd.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmProductos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmProductos.Designer.cs">
+      <DependentUpon>FrmProductos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="FrmTienda.resx">
-      <DependentUpon>FrmTienda.cs</DependentUpon>
+    <EmbeddedResource Include="FrmProductoAdd.resx">
+      <DependentUpon>FrmProductoAdd.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmProductos.resx">
+      <DependentUpon>FrmProductos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\EntidadTienda\EntidadTienda.csproj">
+      <Project>{d42f469b-85fc-4b3e-97be-69728a1fff4b}</Project>
+      <Name>EntidadTienda</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ManejadorTienda\ManejadorTienda.csproj">
+      <Project>{29a1489a-66bb-4c6d-aaf0-0c7cd2f1b3a4}</Project>
+      <Name>ManejadorTienda</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

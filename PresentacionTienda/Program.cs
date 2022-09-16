@@ -14,6 +14,8 @@ namespace PresentacionTienda
 
         static void Main()
         {
+            Application.EnableVisualStyles();
+            Application.Run(new FrmProductos());
             
         }
     }

@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "f7707ad2-970a-469e-86cd-50497587f39e": {
+      "ProjectGuid": "f7707ad2-970a-469e-86cd-50497587f39e",
+      "DisplayName": "PresentacionTienda",
+      "ColorIndex": 0
+    },
+    "29a1489a-66bb-4c6d-aaf0-0c7cd2f1b3a4": {
+      "ProjectGuid": "29a1489a-66bb-4c6d-aaf0-0c7cd2f1b3a4",
+      "DisplayName": "ManejadorTienda",
+      "ColorIndex": 1
+    },
+    "4efa60be-6647-4149-94f2-83a8b34e1ce8": {
+      "ProjectGuid": "4efa60be-6647-4149-94f2-83a8b34e1ce8",
+      "DisplayName": "AccesoDatosTienda",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}
